@@ -12,7 +12,6 @@ if(edadUsuario>=18){
     alert("Todavía no eres mayor de edad. Lo sentimos");
     console.log ("Acceso denegado. Menor de edad");
     ingresar=false
-    throw new Error("Menor de edad");
 }
 
 
