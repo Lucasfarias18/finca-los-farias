@@ -11,7 +11,6 @@ if(edadUsuario>=18){
 }else{
     alert("Todavía no eres mayor de edad. Lo sentimos");
     console.log ("Acceso denegado. Menor de edad");
-    ingresar=false
 }
 
 
@@ -98,3 +97,4 @@ let personas = prompt("¿Cuantas personas asistirán?");
   console.log("EL TOTAL A COBRAR ES $" + (subtotalVino + subtotalCompania));
   document.write("EL TOTAL A ABONAR ES $" + (subtotalVino + subtotalCompania) +". Esperamos que disfruten y vuelvan pronto!")
   }
+  
